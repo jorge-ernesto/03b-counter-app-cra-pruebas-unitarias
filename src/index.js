@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './assets/css/styles.css';
+// import { HelloWorldApp } from './components/HelloWorldApp';
+// import { FirstApp } from './components/FirstApp';
+import { CounterApp } from './components/CounterApp';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <>
+        {/* <HelloWorldApp /> */}
+        {/* <FirstApp title="Hola, soy Goku" subTitle={123} /> */}
+        <CounterApp value={10} />
+    </>
 );
 
 // If you want to start measuring performance in your app, pass a function

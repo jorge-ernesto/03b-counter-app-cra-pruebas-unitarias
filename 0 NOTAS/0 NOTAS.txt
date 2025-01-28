@@ -1,0 +1,10 @@
+---- Notas -----
+
+Bug: unexpected Warning: ReactDOMTestUtils.act is deprecated in favor of React.act
+https://github.com/facebook/react/issues/29000
+
+Instalamos @testing-library/react
+https://www.npmjs.com/package/@testing-library/react
+npm install @testing-library/react  # Instalamos @testing-library/react ----> Por el error: ReactDOMTestUtils.act is deprecated
+
+npm run test  # Levantamos las pruebas con React Testing Library y Jest
